@@ -25,12 +25,27 @@ function toggleSignIn() {
     document.getElementById('elf-sign-in').disabled = true;
 }
 
+// const fbConfig = require('./configuration.js');
+
 function elfConfigure() {
-    const config = {
-        YOUR FIREBASE CONFIG API - KEY OBJECT HERE
-        GO TO FIREBASE CONSOLE, FIND YOUR PROJECT, SELECT "Add Firebase to your webapp"
-    };
-    firebase.initializeApp(config);
+    'use strict';
+    /* const config = {
+       YOUR FIREBASE CONFIG API - KEY OBJECT HERE
+       GO TO FIREBASE CONSOLE, FIND YOUR PROJECT,
+       SELECT "Add Firebase to your webapp"
+       COPY THE OBJECT HERE OR PUT IT IN A FILE
+       CALLED configuration.js
+       THAT IS IN THE SAME DIRECTORY AS THIS FILE.
+       Exposing this is not a security risk, but you
+       want to use your own database, not mine.
+       Do not use a symbolic link to configuration.js
+       Do not need to use a module.exports = config;
+       Do not need to use a require('./configuration.js');
+       @see /views/layout.pug
+       @see /public/javascripts/.gitignore
+    }; */
+
+    firebase.initializeApp(firebaseConfig);
     document.getElementById('elf-sign-in').addEventListener('click', toggleSignIn, false);
     document.getElementById('elf-sign-in').disabled = false;
 }

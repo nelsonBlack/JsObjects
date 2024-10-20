@@ -1,13 +1,13 @@
 {
   "name": "Presidents",
   "description": "Unit Test the Presidents",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "private": true,
   "dependencies": {
-    "express": "3.5"
+    "express": "4.19"
   },
   "devDependencies": {
-    "grunt": "^0.4.4",
-    "grunt-contrib-jshint": "^0.10.0"
+    "grunt": "^1.6.1",
+    "grunt-contrib-jshint": "^3.2.0"
   }
 }

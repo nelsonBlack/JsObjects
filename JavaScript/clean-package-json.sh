@@ -1,0 +1,1 @@
+../Utilities/Templates/JavaScript/clean-package-json.sh

@@ -1,0 +1,39 @@
+{
+  "name": "javascript-clean-code",
+  "version": "0.1.4",
+  "description": "Elven Code for cleaning up JavaScript code",
+  "type": "module",
+  "license": "MIT",
+  "repository": "http://github.com/charliecalvert/JsObjects",
+  "scripts": {
+    "build": "./clean-packages-compile.sh",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "delete_node_modules",
+    "start": "DEBUG=joj:clean-all node find-package-json.js",
+    "ncud": "DEBUG=joj:run-npm-start node run-npm-install.js Design ncu",
+    "ncus": "DEBUG=joj:run-npm-start node run-npm-install.js Syntax ncu",
+    "npmid": "DEBUG=joj:run-npm-start node run-npm-install.js Design install",
+    "npmis": "DEBUG=joj:run-npm-start node run-npm-install.js Syntax install",
+    "ncur": "DEBUG=joj:run-npm-start node run-npm-install.js React ncu",
+    "npmr": "DEBUG=joj:run-npm-start node run-npm-install.js React install",
+    "ncun": "DEBUG=joj:run-npm-start node run-npm-install.js NodeCode ncu",
+    "npmn": "DEBUG=joj:run-npm-start node run-npm-install.js NodeCode install",
+    "ncue": "DEBUG=joj:run-npm-start node run-npm-install.js EcmaScript6 ncu",
+    "npme": "DEBUG=joj:run-npm-start node run-npm-install.js EcmaScript6 install",
+    "ncuf": "DEBUG=joj:run-npm-start node run-npm-install.js Firebase ncu",
+    "npmf": "DEBUG=joj:run-npm-start node run-npm-install.js Firebase install",
+    "ncufu": "DEBUG=joj:run-npm-start node run-npm-install.js Functions ncu",
+    "npmfu": "DEBUG=joj:run-npm-start node run-npm-install.js Functions install",
+    "ncug": "DEBUG=joj:run-npm-start node run-npm-install.js Games ncu",
+    "npmg": "DEBUG=joj:run-npm-start node run-npm-install.js Games install",
+    "ncurx": "DEBUG=joj:run-npm-start node run-npm-install.js RegEx ncu",
+    "npmrx": "DEBUG=joj:run-npm-start node run-npm-install.js RegEx install",
+    "ncusc": "DEBUG=joj:run-npm-start node run-npm-install.js SystemCalls ncu",
+    "npmsc": "DEBUG=joj:run-npm-start node run-npm-install.js SystemCalls install"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "elven-code": "^4.14.2",
+    "walk-directories": "^4.2.1"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "MochaRequireJs",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Mocha and RequireJs",
   "main": "Test01.js",
   "scripts": {
@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/charliecalvert/JsObjects",
   "dependencies": {
-    "requirejs": "^2.1.15"
+    "requirejs": "^2.3.7"
   },
   "devDependencies": {
-    "mocha": "^2.1.0"
+    "mocha": "^10.7.3"
   }
 }

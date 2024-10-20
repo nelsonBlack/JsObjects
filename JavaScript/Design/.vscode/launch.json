@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "name": "ncu-run",
+            "program": "${workspaceFolder}/src/run-exec-ncu.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+        },
+        {
+            "type": "node",
+            "name": "ReportPackageDate",
+            "program": "${workspaceFolder}/src/audit-check/callReportPackagesDate.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Show audit date report check",
+            "program": "${workspaceFolder}/src/audit-check/show-audit-data-report.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+
+        }
+    ]
+}

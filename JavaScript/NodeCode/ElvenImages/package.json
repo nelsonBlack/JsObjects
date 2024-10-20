@@ -1,6 +1,6 @@
 {
   "name": "elven-images",
-  "version": "1.2.0",
+  "version": "1.2.3",
   "description": "images",
   "main": "index.js",
   "scripts": {
@@ -16,21 +16,21 @@
   "author": "Charlie Calvert",
   "license": "MIT",
   "dependencies": {
-    "elven-code": "^3.0.1",
-    "elven-site-tools": "^7.0.0",
-    "inquirer": "^3.0.6",
-    "lwip": "0.0.9",
-    "marked": "^0.3.6",
-    "mkdirp": "^0.5.1"
+    "elven-code": "^4.14.2",
+    "elven-site-tools": "^8.5.1",
+    "inquirer": "^10.1.8",
+    "marked": "^14.1.0",
+    "mkdirp": "^3.0.1",
+    "pug": "^3.0.3"
   },
   "devDependencies": {
-    "grunt": "~1.0.1",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-jshint": "~1.1.0",
-    "grunt-jsbeautifier": "^0.2.13",
-    "grunt-jscs": "^3.0.1",
-    "jasmine-core": "^2.5.2",
-    "jasmine-spec-reporter": "^3.2.0",
-    "jshint-stylish": "^2.2.1"
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@testing-library/react": "^16.0.1",
+    "connect-redis": "^7.1.1",
+    "grunt": "~1.6.1",
+    "jest": "^29.7.0",
+    "jest-cli": "^29.7.0",
+    "uuid": "^10.0.0"
   }
 }

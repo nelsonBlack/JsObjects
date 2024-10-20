@@ -58,11 +58,13 @@ sudo apt-get install curl
 # The new setup script for Node.js v18.X
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 
+# The new setup script for Node.js v20.X
+# curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 
 # Install node
 sudo apt-get install -y nodejs
 
 echo Add to .bashrc
-echo export NODE_PATH=$NODE_PATH:$HOME/npm/lib/node_modules
+echo export NODE_PATH="$NODE_PATH:$HOME"/npm/lib/node_modules
 #  echo "export NODE_PATH=$NODE_PATH:$HOME/npm/lib/node_modules" >> ~/.bashrc && source ~/.bashrc
 

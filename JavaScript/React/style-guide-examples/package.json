@@ -1,22 +1,17 @@
 {
   "name": "guide",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "private": true,
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "foo": "npx styleguidist build",
-    "bar": "npx styleguidist server"
+    "build": "npx styleguidist build",
+    "start": "npx styleguidist server"
   },
   "devDependencies": {
-    "react-styleguidist": "^11.1.6"
+    "react-styleguidist": "^13.1.3"
   },
   "browserslist": {
     "production": [

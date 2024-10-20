@@ -1,27 +1,21 @@
 {
   "name": "Week05-JadeMixinBasics",
-  "version": "0.0.0",
+  "version": "0.0.5",
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "cookie-parser": "^1.4.4",
-    "debug": "^4.1.1",
-    "express": "^4.17.1",
-    "morgan": "^1.9.1",
-    "pug": "^2.0.4",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "debug": "^4.3.7",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.3",
     "serve-favicon": "^2.5.0"
   },
-  "devDependencies": {    
-    "jasmine-core": "^3.5.0",
-    "jasmine-jquery": "^2.1.1",
-    "jshint-stylish": "^2.2.1",
-    "karma": "^4.4.1",
-    "karma-jasmine": "^3.1.1",
-    "karma-chrome-launcher": "^3.1.0",
-    "karma-phantomjs-launcher": "^1.0.4",
-    "karma-spec-reporter": "^0.0.32"
+  "devDependencies": {
+    "jasmine-core": "^5.4.0",
+    "jasmine-jquery": "^2.1.1"
   }
 }

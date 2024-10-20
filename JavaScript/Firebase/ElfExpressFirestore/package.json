@@ -1,31 +1,34 @@
 {
   "name": "elfexpressfirestore",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
-    "start": "npx webpack --watch & nodemon ./bin/www",
+    "start": "DEBUG=elf-express npx webpack --watch & nodemon ./bin/www",
     "build": "npx webpack"
   },
   "dependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/plugin-proposal-class-properties": "^7.4.4",
-    "cookie-parser": "~1.4.4",
-    "debug": "~4.1.1",
-    "express": "~4.16.4",
-    "firebase": "^6.1.1",
-    "firebase-admin": "^8.0.0",
-    "http-errors": "~1.7.2",
-    "morgan": "~1.9.1",
-    "pug": "2.0.3",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "@babel/cli": "^7.25.7",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "cookie-parser": "~1.4.6",
+    "debug": "~4.3.7",
+    "express": "~4.21.0",
+    "firebase": "^10.14.0",
+    "firebase-admin": "^12.6.0",
+    "http-errors": "~2.0.0",
+    "morgan": "~1.10.0",
+    "pug": "3.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1"
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "@babel/preset-react": "^7.25.7",
+    "babel-loader": "^9.2.1",
+    "eslint": "^9.12.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.37.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
   }
 }

@@ -1,24 +1,19 @@
 {
     "name": "todo-redux",
-    "version": "0.1.0",
+    "version": "0.1.5",
     "private": true,
+    "scripts": {
+        "build": "echo \"Error: no build specified\" && exit 0",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
     "dependencies": {
         "prop-types": "^15.8.1",
-        "react": "^18.0.0",
-        "react-dom": "^18.0.0",
-        "react-redux": "^7.2.8",
-        "react-scripts": "5.0.1",
-        "redux": "^4.1.2"
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-redux": "^9.1.2",
+        "redux": "^5.0.1"
     },
-    "devDependencies": {
-
-    },
-    "scripts": {
-        "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject"
-    },
+    "devDependencies": {},
     "browserslist": {
         "production": [
             ">0.2%",
